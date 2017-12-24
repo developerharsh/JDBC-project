@@ -1,0 +1,5 @@
+select empid,name,username,password,doj,dob,email,admin,designation,salary,phone from users
+insert into users values('amit','123amit','no','amit Bhardwaj','1-Jan-2017','developer','8-Oct-1996','amitbhard@gmail.com',9645113802,30000,103)
+insert into users values('Shrey','shrey123','no','shrey mishra','8-Sep-2016','developer','15-dec-1999','mishra323@gmail.com',9634213502,30000,104)
+alter table users add picture BLOB;
+desc users
